@@ -1,0 +1,56 @@
+#texto-banner h1, #texto-banner p, .textos p, .textos h2{
+    color: var(--cor_branco);
+    font-family: var(--fonte_textos);
+}
+
+.textos p, #quadro p{
+    font-size: 1.2rem;
+    font-weight: var(--regular);
+}
+
+#banner{
+    background-image: url(../assets/Header\ 3.jpg);
+}
+
+.textos h2{
+    font-size: 2rem;
+    margin-top: 5rem;
+    text-decoration: underline solid var(--cor_verde) 0.3rem;
+}
+
+.textos{
+    display: flex;
+    flex-direction: column;
+    gap: 1.88rem ;
+}
+
+.quadro{
+    height: 35rem;
+    background-color: var(--cor_verde);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1rem;
+    margin: 3.12rem 0;
+    filter: blur(5px);
+    position: relative;
+}
+
+.quadro:hover{
+    transition: 1.5s;
+    filter: blur(0px);
+}
+
+.img-quadro{
+    width: 100%;
+    height: 100%;
+    border-radius: 1rem;
+}
+
+.img-quadro img{
+    border-radius: 1rem;
+    width: 100%;
+    height: 100%;
+}
+
